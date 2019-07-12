@@ -52,14 +52,12 @@ class ControladorUsuarios{
 			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["nuevoNombre"]) &&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["nuevoUsuario"]) &&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["nuevoPassword"])){
+			}
+			else{
 
-
-
- 
-}else
-}
-}
-// 
+			}
+		}
+	}
 }
 	
 
