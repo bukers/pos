@@ -7,6 +7,10 @@
 <?php
 
 
+/*
+MALA METODOLOGIA DE ESTRUCTURA, CREARA SOBRE CARGA EN UN FUTURO
+*/
+
 require_once "controladores/plantilla.controlador.php";
 require_once "controladores/categorias.controlador.php";
 require_once "controladores/productos.controlador.php";
@@ -21,6 +25,9 @@ require_once "modelos/usuarios.modelo.php";
 require_once "modelos/clientes.modelo.php";
 
 
+/*
+TERMIN LA MALA METODOLOGIA DE ESTRUCTURA, CREARA SOBRE CARGA EN UN FUTURO
+*/
 
 $plantilla = new ControladorPlantilla();
 
