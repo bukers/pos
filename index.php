@@ -7,6 +7,14 @@
 <?php
 
 
+/*
+
+mis comentarios para salvador
+
+
+*/
+
+
 require_once "controladores/plantilla.controlador.php";
 require_once "controladores/categorias.controlador.php";
 require_once "controladores/productos.controlador.php";
