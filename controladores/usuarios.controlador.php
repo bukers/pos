@@ -20,15 +20,11 @@ class ControladorUsuarios{
 
 				$respuesta = ModeloUsuarios::MdlMostrarUsuarios($tabla, $item, $valor);
 
-				if($respuesta["usuario"] == $_POST["ingUsuario"] && $respuesta["password"] == $_POST["ingPassword"]){
+				if($respuesta["usuario"] == $_POST["ingUsuario"] && $respuesta["password"] == md5($_POST["ingPassword"])){
 
 					$_SESSION["iniciarSesion"] = "ok";
 
-					echo '<script>
-
-						window.location = "inicio";
-
-					</script>';
+					echo '<script>	window.location = "inicio";	</script>';
 
 				}else{
 
@@ -41,9 +37,8 @@ class ControladorUsuarios{
 		}
 
 	}
-/*============================================
-=            REGISTRO DE USUARIO             =
-============================================*/
+
+	
 
 	static public function ctrCrearUsuario(){
 
