@@ -36,33 +36,23 @@ session_start();
 
 </head>
 
-<!--=====================================
-CUERPO DOCUMENTO
-======================================-->
+
 
 <body class="hold-transition skin-blue sidebar-collapse sidebar-mini login-page">
  
   <?php
 
+
   if(isset($_SESSION["iniciarSesion"]) && $_SESSION["iniciarSesion"] == "ok"){
 
    echo '<div class="wrapper">';
-
-    /*=============================================
-    CABEZOTE
-    =============================================*/
+ 
 
     include "modulos/cabezote.php";
 
-    /*=============================================
-    MENU
-    =============================================*/
-
+   
     include "modulos/menu.php";
 
-    /*=============================================
-    CONTENIDO
-    =============================================*/
 
     if(isset($_GET["ruta"])){
 
@@ -90,10 +80,7 @@ CUERPO DOCUMENTO
 
     }
 
-    /*=============================================
-    FOOTER
-    =============================================*/
-
+  
     include "modulos/footer.php";
 
     echo '</div>';
