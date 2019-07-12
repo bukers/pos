@@ -28,6 +28,7 @@ class ControladorUsuarios{
 
 				}else{
 
+					
 					echo '<br><div class="alert alert-danger">Error al ingresar, vuelve a intentarlo</div>';
 
 				}
