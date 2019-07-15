@@ -2,9 +2,6 @@
 
 class ControladorUsuarios{
 
-	/*=============================================
-	INGRESO DE USUARIO
-	=============================================*/
 
   static public function ctrIngresoUsuario(){
 
@@ -23,6 +20,8 @@ class ControladorUsuarios{
 				if($respuesta["usuario"] == $_POST["ingUsuario"] && $respuesta["password"] == md5($_POST["ingPassword"])){
 
 					$_SESSION["iniciarSesion"] = "ok";
+
+					$_SESSION["id_usuario"] = $respuesta['id'];
 
 					echo '<script>	window.location = "inicio";	</script>';
 

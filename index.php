@@ -1,6 +1,6 @@
 
-
 <?php
+
 
 $dir_ini = "/pos/";
 $host = $_SERVER["HTTP_HOST"].$dir_ini;
