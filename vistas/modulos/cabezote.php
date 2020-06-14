@@ -56,7 +56,7 @@
 					<ul class="dropdown-menu">
 
 
-					    <a  href="config"> <button type="button" class="btn btn-block btn-primary">Primary</button> </a>
+					    <a  href="config"> <button type="button" class="btn btn-block btn-primary"><i class="fa fa-edit"></i> Configuracion</button> </a>
 						
 						<li class="user-body">
 							
