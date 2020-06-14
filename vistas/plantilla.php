@@ -4,6 +4,9 @@ session_start();
 
 ?>
 
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,19 +26,19 @@ session_start();
   ======================================-->
 
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="vistas/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vistas/bower_components/bootstrap/dist/css/bootstrap.min.css?<?php  echo rand(5, 15); ?>">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="vistas/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vistas/bower_components/font-awesome/css/font-awesome.min.css?<?php  echo rand(5, 15); ?>">
 
   <!-- Ionicons -->
-  <link rel="stylesheet" href="vistas/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="vistas/bower_components/Ionicons/css/ionicons.min.css?<?php  echo rand(5, 15); ?>">
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="vistas/dist/css/AdminLTE.css">
+  <link rel="stylesheet" href="vistas/dist/css/AdminLTE.css?<?php  echo rand(5, 15); ?>">
   
   <!-- AdminLTE Skins -->
-  <link rel="stylesheet" href="vistas/dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="vistas/dist/css/skins/_all-skins.min.css?<?php  echo rand(5, 15); ?>">
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -45,16 +48,16 @@ session_start();
   ======================================-->
 
   <!-- jQuery 3 -->
-  <script src="vistas/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="vistas/bower_components/jquery/dist/jquery.min.js?<?php  echo rand(5, 15); ?>"></script>
   
   <!-- Bootstrap 3.3.7 -->
-  <script src="vistas/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="vistas/bower_components/bootstrap/dist/js/bootstrap.min.js?<?php  echo rand(5, 15); ?>"></script>
 
   <!-- FastClick -->
-  <script src="vistas/bower_components/fastclick/lib/fastclick.js"></script>
+  <script src="vistas/bower_components/fastclick/lib/fastclick.js?<?php  echo rand(5, 15); ?>"></script>
   
   <!-- AdminLTE App -->
-  <script src="vistas/dist/js/adminlte.min.js"></script>
+  <script src="vistas/dist/js/adminlte.min.js?<?php  echo rand(5, 15); ?>"></script>
 
 </head>
 
@@ -129,6 +132,6 @@ CUERPO DOCUMENTO
   ?>
 
 
-<script src="vistas/js/plantilla.js"></script>
+<script src="vistas/js/plantilla.js?<?php  echo rand(5, 15); ?>"></script>
 </body>
 </html>
